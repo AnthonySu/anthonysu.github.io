@@ -1,0 +1,45 @@
+baseURL: "https://anthonysu.github.io/"
+title: "Anthony Su"
+theme: "PaperMod"
+languageCode: "en-us"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+menu:
+  main:
+    - identifier: research
+      name: Research
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: cv
+      name: CV
+      url: /cv.pdf
+      weight: 30
+
+params:
+  env: production
+  title: Anthony Su
+  description: "AI Researcher | Focusing on LLMs & Data Science"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  
+  homeInfoParams:
+    Title: "Hi there 👋 I'm Anthony"
+    Content: >
+      Welcome to my research blog.
+      I am an AI Researcher focusing on **Machine Learning**, **LLMs**, and **Mathematics**.
+      Here I share my research insights and coding projects.
+      
+  socialIcons:
+    - name: github
+      url: "https://github.com/anthonysu"
