@@ -26,15 +26,11 @@ summary: "Senior Machine Learning Engineer specialized in Search, RecSys, and LL
 
 ## 🎓 Education
 
-- **New York University (NYU)** | Ph.D. in Engineering (Focus: Multi-Agent RL)
-  - Dissertation: "EMVLight: A scalable Multi-Agent RL framework for network traffic optimization".
-- **University of California, Berkeley** | M.Sc. in Engineering & B.Sc. in CS
+- **New York University (NYU)** | Ph.D. in Engineering (Focus: Multi-Agent RL in Transportation Systems)
+  - Dissertation: "Facilitating Emergency Vehicle Passage in Congested Urban Areas Using Multi-Agent Deep Reinforcement Learning".
+- **University of California, Berkeley** | M.Sc. in System Engineering
+- **University of California, Berkeley** | B.Sc. in Engineering
+- **University of California, Berkeley** | B.Sc. in Computer Science
   
 ---
-
-## 🛠 Tech Stack
-
-- **Machine Learning:** PyTorch, TensorFlow, JAX, Hugging Face, XGBoost, Faiss.
-- **Big Data & Infra:** Spark, Flink, Kafka, Ray, Kubernetes, Docker, Prometheus.
-- **Core Concepts:** LLMs, RAG, Causal Inference, Contrastive Learning, Graph Neural Networks.
 

@@ -39,20 +39,22 @@ params:
   
   # 首页简介 (根据简历定制)
   homeInfoParams:
-    Title: "Hi, I'm Haoran Su 👋"
-    Content: >
-      I am a **Senior Machine Learning Engineer** at **TikTok** (Search Recommendation), based in San Jose.
+    Title: "Hi, I'm Haoran Su (苏浩然) 👋"
+    Content: |
+      I am a **Senior Machine Learning Engineer** at **TikTok**.
       
-      I obtained my **Ph.D. in Engineering** from **New York University**, focusing on Multi-Agent Reinforcement Learning (MARL). 
+      I obtained my **Ph.D.** from **New York University**, focusing on Multi-Agent Reinforcement Learning (MARL). 
       Before that, I graduated from **UC Berkeley** (M.Sc. & B.Sc.).
       
-      My current focus lies in **Large Language Models (LLMs)**, **RAG**, and **Causal Inference** for large-scale recommendation systems.
+      My current focus lies in **LLM**, **RAG**, and **Causal Inference** for large-scale recommendation systems.
+
+      If you are seeking a referral, please find the job postings on [TikTok Careers](https://lifeattiktok.com/) and reach out to me on LinkedIn directly!
       
   socialIcons:
     - name: google-scholar
       url: "https://scholar.google.com/citations?user=0s5Xa8gAAAAJ&hl=en"
     - name: linkedin
-      url: "https://www.linkedin.com/in/haoransu/"  # 如果链接不对请手动修改
+      url: "https://www.linkedin.com/in/hs2022/"  # 如果链接不对请手动修改
     - name: github
       url: "https://github.com/anthonysu"
     - name: email
