@@ -1,5 +1,5 @@
 baseURL: "https://anthonysu.github.io/"
-title: "Anthony Su"
+title: "Haoran Su"
 theme: "PaperMod"
 languageCode: "en-us"
 
@@ -9,23 +9,27 @@ buildFuture: false
 
 menu:
   main:
-    - identifier: research
-      name: Research
-      url: /posts/
-      weight: 10
     - identifier: about
-      name: About
+      name: About Me
       url: /about/
+      weight: 10
+    - identifier: publications
+      name: Publications
+      url: /publications/
       weight: 20
-    - identifier: cv
-      name: CV
-      url: /cv.pdf
+    - identifier: research
+      name: Research Blog
+      url: /posts/
       weight: 30
+    - identifier: cv
+      name: Resume
+      url: /cv.pdf
+      weight: 40
 
 params:
   env: production
-  title: Anthony Su
-  description: "AI Researcher | Focusing on LLMs & Data Science"
+  title: Haoran Su
+  description: "Senior ML Engineer @ TikTok | PhD @ NYU | Search & RecSys"
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: true
@@ -33,13 +37,23 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   
+  # 首页简介 (根据简历定制)
   homeInfoParams:
-    Title: "Hi there 👋 I'm Anthony"
+    Title: "Hi, I'm Haoran Su 👋"
     Content: >
-      Welcome to my research blog.
-      I am an AI Researcher focusing on **Machine Learning**, **LLMs**, and **Mathematics**.
-      Here I share my research insights and coding projects.
+      I am a **Senior Machine Learning Engineer** at **TikTok** (Search Recommendation), based in San Jose.
+      
+      I obtained my **Ph.D. in Engineering** from **New York University**, focusing on Multi-Agent Reinforcement Learning (MARL). 
+      Before that, I graduated from **UC Berkeley** (M.Sc. & B.Sc.).
+      
+      My current focus lies in **Large Language Models (LLMs)**, **RAG**, and **Causal Inference** for large-scale recommendation systems.
       
   socialIcons:
+    - name: google-scholar
+      url: "https://scholar.google.com/citations?user=0s5Xa8gAAAAJ&hl=en"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/haoransu/"  # 如果链接不对请手动修改
     - name: github
       url: "https://github.com/anthonysu"
+    - name: email
+      url: "mailto:haoransu.cal@gmail.com"
